@@ -7,18 +7,6 @@
             style="position: absolute; inset: 0px; overflow: scroll; margin-right: 0px; margin-bottom: -22px; width: 100%;">
             <div class="flex h-full flex-col justify-between">
               <div>
-                <div class="mt-8 flex items-center justify-center">
-                  <div
-                    class="me-2 flex h-[40px] w-[40px] items-center justify-center rounded-md bg-zinc-950 text-white dark:bg-white dark:text-zinc-950">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
-                      aria-hidden="true" class="h-5 w-5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
-                        d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
-                        clip-rule="evenodd"></path>
-                    </svg>
-                  </div>
-                  <h5 class="me-2 text-2xl font-bold leading-5 text-zinc-950 dark:text-white">Horizon AI</h5>
-                </div>
                 <div class="mb-8 mt-8 h-px bg-zinc-200 dark:bg-white/10"></div>
                 <ul>
                   <li v-for="(route, index) in routes" :key="index">
