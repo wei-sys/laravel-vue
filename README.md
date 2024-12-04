@@ -26,4 +26,6 @@ npm i
 
 # build the frontend
 npm run build
+
+# http://localhost/admin/#/dashboard
 ```
